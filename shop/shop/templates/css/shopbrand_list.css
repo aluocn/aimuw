@@ -1,0 +1,34 @@
+
+.brandlist{
+	border:0px #eeeeee solid;
+}
+
+.brandlist ul{
+	float:left;
+	margin:8px 2px;
+	padding-bottom:12px;
+	border:0px #dddddd solid;
+}
+
+.brandlist ul li{
+	list-style-type: none;
+	margin:5px 0px;
+	float:left;
+}
+
+.brandlist ul li .brandpic{
+	float:left;
+}
+
+.brandlist ul li img{
+	border:1px #dddddd solid;
+}
+
+.brandlist ul li .brandtitle{
+	float:left;
+	margin-left:10px;
+}
+
+.brandlist ul li .brandtitle a{
+	font:14px/40px Arial, Helvetica, sans-serif;
+}

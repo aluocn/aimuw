@@ -1,0 +1,62 @@
+/*===放标签的层===*/
+
+div.gbl649_out{
+white-space:nowrap;
+overflow:hidden;
+background:url(bar.png) repeat-x;
+height:30px;
+position:relative;
+margin:0px;
+}
+ 
+div.gbl649_out ul.gblable{            
+margin:0;
+padding:0;
+}
+
+/*===切换标签的样式
+=====必须指定边框编号防止冲突
+===*/
+
+li.gbl649{
+list-style-type:none;
+float:left;
+width:90px;
+height:29px;
+margin:1px 0px 0px 0px;
+color:#b47600;
+text-align:center;
+font:bold 12px/28px simsun;
+background:url(bar.png) 0px -30px repeat-x;
+cursor:pointer;
+}
+
+/*===切换标签当前选中的样式===*/
+
+
+li.gbl649_current{
+list-style-type:none;
+float:left;
+width:90px;
+height:29px;
+margin:1px 0px 0px 0px;
+color:#fff6fe;
+text-align:center;
+font:bold 12px/28px simsun;
+background:url(bar.png) 0px -62px repeat-x;
+cursor:pointer;
+}
+
+
+/*===more区域样式===*/
+
+div.gbl649_more{
+float:right;
+}
+
+div.gbl649_more a{
+font:12px/30px simsun;
+color:#555;
+margin-right:3px
+}
+

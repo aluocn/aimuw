@@ -1,0 +1,29 @@
+/* ============ап╠М============== */
+
+div.shoplist_diy2{
+	clear:both;
+	margin:0px;
+}
+
+
+div.shoplist_diy2 a.prodtitle:link,div.shoplist_diy2 a.prodtitle:visited,div.shoplist_diy2 a.prodtitle:active{
+	display:block;
+	color:#666666;
+	font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background:url(../images/smallcart2.gif) left center no-repeat;
+	padding-left:28px;
+}
+
+div.shoplist_diy2 a.prodtitle:hover{
+	display:block;
+	color:#ff0000;
+	text-decoration: underline;
+	font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+	background:url(../images/smallcart2.gif) 3px center no-repeat;
+	padding-left:28px;
+}
+
+
+
+

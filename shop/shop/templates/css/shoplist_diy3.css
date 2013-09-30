@@ -1,0 +1,40 @@
+/* ============ап╠М============== */
+
+div#shoplist_diy3{
+	border-left:1px #e8e8e8 solid;
+	border-top:1px #e8e8e8 solid;
+	border-right:1px #e8e8e8 solid;
+}
+
+div.shoplist_diy3{
+	width:100%;
+	clear:both;
+	margin:0px;
+	border-bottom:1px #e8e8e8 solid;
+	background:url(../images/shoplist_bg.jpg) no-repeat;
+}
+
+
+div.shoplist_diy3 a.prodtitle:link,div.shoplist_diy3 a.prodtitle:visited,div.shoplist_diy3 a.prodtitle:active{
+	display:block;
+	color:#666666;
+	font:12px/25px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background:url(../images/shop_li.gif) left center no-repeat;
+	padding-left:25px;
+	margin-left:15px;
+}
+
+div.shoplist_diy3 a.prodtitle:hover{
+	display:block;
+	color:#ff0000;
+	text-decoration: underline;
+	font:12px/25px Verdana, Arial, Helvetica, sans-serif;
+	background:url(../images/shop_li.gif) 3px center no-repeat;
+	padding-left:25px;
+	margin-left:15px;
+}
+
+
+
+

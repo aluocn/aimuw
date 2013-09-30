@@ -1,0 +1,73 @@
+#menumain{
+   margin:0;
+   white-space:nowrap;
+   overflow:hidden;
+   height:44px;
+   background:url(bg.gif) 0px 0px repeat-x;
+}
+
+#menumain .mainmenuleft{
+	margin:0;
+	padding:0;
+	float:left;
+	width:8px;
+	height:44px;
+	background:url(left.gif) no-repeat;
+}
+
+#menumain .mainmenuright{
+	margin:0;
+	float:right;
+	width:8px;
+	height:44px;
+	background:url(right.gif) no-repeat;
+}
+
+#menumain .mainmenuiner {
+    height: 44px;
+	padding:0;
+    line-height: 44px;
+    overflow: hidden;
+    margin: 0 0 0 20px;
+}
+
+
+#menumain a.menumain:link,#menumain a.menumain:active,#menumain a.menumain:visited{
+   display:block;
+   float:left;
+   color: #ffffff; 
+   width:83px;
+   height:44px;
+   text-decoration: none;
+   text-align:center;
+   background:url(li.gif) no-repeat right;
+   font:bold 14px/44px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+#menumain a.menumain_current{
+   display:block;
+   float:left;
+   color: #cc5d03; 
+   width:83px;
+   height:44px;
+   text-decoration: none;
+   text-align:center;
+   font:bold 14px/50px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+   background:url(now.gif) no-repeat;
+} 
+
+#menumain a.menumain:hover {
+   display:block;
+   float:left;
+   color: #cc5d03; 
+   width:85px;
+   height:44px;
+   text-decoration: none;
+   text-align:center;
+   font:bold 14px/50px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin-left:-2px;
+   background:url(now.gif) no-repeat;
+} 
+

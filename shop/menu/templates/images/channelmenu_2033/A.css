@@ -1,0 +1,111 @@
+#channelmenu{
+   margin:0;
+   white-space:nowrap;
+   overflow:hidden;
+   height:57px;
+   background:url(menu_bg.jpg) 0px 0px repeat-x;
+}
+
+#channelmenumain{
+   margin:0;
+   white-space:nowrap;
+   overflow:hidden;
+   height:32px;
+   padding-left:245px;
+}
+
+#channelmenu a.channelmenu_main:link,#channelmenu a.channelmenu_main:active,#channelmenu a.channelmenu_main:visited{
+   display:block;
+   float:left;
+   color: #fff; 
+   width:93px;
+   height:32px;
+   text-decoration: none;
+   text-align:center;
+   font:12px/32px Verdana, Arial, Helvetica, sans-serif;
+   background:url(menu_old.jpg) 0px 0px no-repeat;
+   margin:0px 6px 0px 0px;
+}
+
+#channelmenu a.channelmenu_main_current{
+   display:block;
+   float:left;
+   color: #ffffff; 
+   width:93px;
+   height:32px;
+   text-decoration: none;
+   text-align:center;
+   font:12px/32px Verdana, Arial, Helvetica, sans-serif;
+   background:url(menu_now.jpg) 0px 0px no-repeat;
+   margin:0px 6px 0px 0px;
+} 
+
+#channelmenu a.channelmenu_main:hover {
+   display:block;
+   float:left;
+   color: #ffffff; 
+   width:93px;
+   height:32px;
+   text-decoration: none;
+   text-align:center;
+   font:12px/32px Verdana, Arial, Helvetica, sans-serif;
+   background:url(menu_now.jpg) 0px -36px no-repeat;
+   margin:0px 6px 0px 0px;
+} 
+
+#channelmenu_sub{
+margin:-5px 0px 0px 0px;
+padding:0;
+height:30px;
+}
+
+
+#channelmenu_sub_left{
+margin:0px;
+padding:0;
+float:left;
+height:30px;
+width:20px;
+background:url(left.jpg) 0px 0px no-repeat;
+}
+
+#channelmenu_sub_right{
+margin:0px;
+padding:0;
+float:right;
+height:30px;
+width:20px;
+background:url(right.jpg) 0px 0px no-repeat;
+}
+
+
+
+#channelmenu_sub ul{
+display:none;
+margin:0px 0px 0px 210px;
+}
+
+#channelmenu_sub li {
+margin:0;
+list-style-type: none;
+height:30px;
+float:left;
+color:#ffffff;
+white-space: nowrap;
+font:12px/30px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#channelmenu_sub a:link,#channelmenu_sub a:visited,#channelmenu_sub a:active{
+margin:0 6px;
+color:#ffffff;
+font:12px/30px Verdana, Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+#channelmenu_sub a:hover{
+margin:0 6px;
+color:#ffffff;
+font:12px/30px Verdana, Arial, Helvetica, sans-serif;
+text-decoration: underline;
+}
+
